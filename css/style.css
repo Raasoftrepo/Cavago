@@ -326,23 +326,23 @@ img.footer-logo {
   position: relative;
 }
 
-.header-widget .sign-in {
+/* .header-widget .sign-in {
   position: relative;
   color: #333;
   margin-right: 25px;
   top: 10px;
   display: inline-block;
   vertical-align: top;
-}
+} */
 
 .header-widget .sign-in i {
   padding-right: 4px;
   font-size: 15px;
 }
 
-.header-widget .sign-in:hover {
+/* .header-widget .sign-in:hover {
   color: #66676b;
-}
+} */
 
 /* Full Width Header */
 

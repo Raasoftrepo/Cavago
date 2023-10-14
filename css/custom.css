@@ -1,0 +1,82 @@
+/*------------- Header Right Section ---------*/
+.custom-header-widget {
+  height: 100%;
+  margin-bottom: 5px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.custom-sign-in {
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-sign-in:hover {
+  color: #ffb71b;
+  /* border-color: #ffb71b; */
+  /* border: 1px solid green; */
+}
+
+.custom-sign-in i {
+  line-height: 31px;
+  width: 32px;
+  height: 33px;
+  display: inline-block;
+  border: 1px solid #333;
+  border-radius: 50%;
+  padding: 0 !important;
+  /* border: 1px solid red; */
+  border-color: #66676b;
+  color: #66676b;
+}
+
+.custom-heart-icon {
+  border-color: #ffb71b !important;
+  color: #ffb71b !important;
+}
+
+.custom-host-icon {
+  background-color: #66676b;
+  color: white !important;
+}
+
+.custom-host-icon:hover {
+  border-color: #66676b !important;
+  background-color: #66676b;
+  color: white !important;
+}
+
+.custom-sign-in i:hover {
+  border-color: #ffb71b;
+  color: #ffb71b;
+}
+
+/*------------- Header Right Section // END ---------*/
+
+/*---------- Product Section -------------*/
+
+.custom-product-h2 {
+  color: #ffb71b;
+  font-weight: 800;
+  position: relative;
+}
+
+.custom-product-h4 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  padding-left: 15px;
+}
+
+.custom-product-ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
