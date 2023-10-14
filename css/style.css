@@ -261,16 +261,6 @@ img {
 /*modified css
 ------------------------------------- */
 
-.ride-near-you-card {
-  background: #fff;
-  border-radius: 20px;
-}
-
-.ride-near-you-card-image {
-  padding: 20px;
-  background-color: #fff;
-}
-
 /* ---------------------------------- */
 
 /* Header
@@ -5525,7 +5515,7 @@ strong.headline-with-separator,
 .icon-box-v3 {
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .icon-box-v3:last-child {
@@ -5684,10 +5674,10 @@ strong.headline-with-separator,
   background-color: #8c8c8c;
 }
 
-.boxed-photo-banner-inner-text {
+/* .boxed-photo-banner-inner-text {
   margin-top: 5rem;
   margin-left: 4rem;
-}
+} */
 
 .boxed-photo-banner-text h2 {
   color: #fff;

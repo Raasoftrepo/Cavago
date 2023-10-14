@@ -349,19 +349,19 @@ body #navigation.style-1 ul li:hover ul li:hover li:hover li:hover a,
 body #navigation.style-1 ul ul li:hover a:after,
 body #navigation.style-1 ul ul li:hover ul li a:hover,
 body .user-menu ul li a:hover {
-  color: #f91942;
+  color: #ffb71b;
 }
 
 #navigation.style-1 > ul > li:hover > a,
 #navigation.style-1 > ul > li > a.current {
   background: rgba(249, 25, 66, 0.06);
-  color: #f91942;
+  color: #ffb71b;
 }
 
 .category-box:hover .category-box-content span,
 .radio input[type="radio"] + label .radio-label:after,
 .uploadButton .uploadButton-button:hover {
-  background-color: #f91942;
+  background-color: #ffb71b;
 }
 
 .headline-with-separator:after,
@@ -381,12 +381,12 @@ body .user-menu ul li a:hover {
   > a.current,
 .transparent-header #header:not(.cloned) .header-widget .button.border:hover,
 .transparent-header #header:not(.cloned) .header-widget .button:hover {
-  background: #f91942;
+  background: #ffb71b;
 }
 
 .radio input[type="radio"]:checked + label .radio-label {
-  background-color: #f91942;
-  border-color: #f91942;
+  background-color: #ffb71b;
+  border-color: #ffb71b;
 }
 
 .uploadButton .uploadButton-button:hover {
@@ -395,7 +395,7 @@ body .user-menu ul li a:hover {
 
 .category-small-box i,
 .uploadButton .uploadButton-button:before {
-  color: #f91942;
+  color: #ffb71b;
 }
 
 .daterangepicker td.in-range,
@@ -409,5 +409,5 @@ section.fullwidth .icon-box-2 i {
 
 .slick-current .testimonial-author h4 span {
   background: rgba(249, 25, 66, 0.06);
-  color: #f91942;
+  color: #ffb71b;
 }

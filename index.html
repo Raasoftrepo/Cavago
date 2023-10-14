@@ -351,10 +351,7 @@
             letter-spacing: 1px;
         }
         
-        .listing-item [class^="swiper-button-"]::after {
-            font-size: 10px;
-            color: #ffffff;
-        }
+        
         
         .swiper-customer-review [class^="swiper-button-"]::after {
             font-size: 25px;
@@ -374,14 +371,7 @@
             }
         }
         
-        .swiper-container [class^="swiper-button-"]::after {
-            font-size: 10px;
-            font-weight: bolder;
-            color: #ffffff;
-            background-color: #ffb71b;
-            padding: 10px;
-            border-radius: 5px;
-        }
+      
         /* modified banner */
     </style>
 
@@ -568,7 +558,7 @@
                 <div class="container-sm  m-hero">
                     <div class="row">
                         <div class="col-md-12 ">
-                            <h2 style="color: #ffb71b;  font-weight: 800;"><span class="m-hero-h2">Connecting</span><span> Peaople, Places & Horses</span></h2>
+                            <h2 style="color: #ffb71b;  font-weight: 800;"><span class="m-hero-h2">Connecting</span><span> People, Places & Horses</span></h2>
                             <p>Find Your Next Equestrian...</p>
                             <div class="highlighted-categories" style="width: 50%; padding: 0;">
 
@@ -613,7 +603,7 @@
 							</div> -->
 
                                 <div class="main-search-input-item">
-                                    <input type="text" placeholder="What are you looking for?" value="">
+                                    <input type="text" placeholder="Search for your next horse experience…" value="">
                                 </div>
 
                                 <button class="button h-search-button" style="
@@ -725,16 +715,8 @@
                                 <ul class="custom-product-ul">
 
                                     <li><strong style="color: #000;  font-weight: 600; font-size: x-large;">Daily Rides & Experiences in </strong></li>
-                                    <li>
-                                        <select data-placeholder="All Categories" style="
-							    border: unset;
-							    box-shadow: unset;
-							    font-weight: 800;
-							    display: block;
-							    font-size: 22px;
-								color: #000;
-							    padding: 0 0 5px 0;
-								margin-top: 16px;">
+                                    <li >
+                                        <select class="custom-country-select" data-placeholder="All Categories " >
 								<option>United Kingdom</option>	
 								<option>London</option>
 								<option>Birmingham</option>
@@ -748,7 +730,7 @@
                     </div>
                     <div class="col-md-12 padding-top-50">
                     <div class="col-lg-3 col-md-3 ">
-                        <a href="#" class="listing-item-container" tabindex="0" style="background-color: #fff; border: 1px solid #d5d5d5; border-radius: 20px;">
+                        <a href="#" class="listing-item-container custom-list-item-container" tabindex="0" >
                             <div class="listing-item ride-near-you-card " style="height: auto;">
                                 <div class="swiper-wrapper" style="height: auto ;">
                                     <div class="swiper-slide ride-near-you-card-image" style="border-radius: 30px;background-color: transparent;">
@@ -765,8 +747,8 @@
 
 
                                 <!-- Navigation buttons -->
-                                <div class="swiper-button-next" style=" background-color: #ffb71b; width: 20px; height: 20px; margin-right: 15px; border-radius: 5px; top: 110px;"></div>
-                                <div class="swiper-button-prev" style="background-color: #ffb71b; width: 20px; height: 20px; margin-left: 15px; border-radius: 5px;top: 110px;"></div>
+                                <div class="swiper-button-next" ></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
 
                             <div class="star-rating" style="padding-top: 0;">
@@ -782,7 +764,7 @@
                                     Product Name
                                 </h4>
                                 <h6>Hourly</h6>
-                                <h6 class="price-span">From <strong>GBP 70.00</strong></h6>
+                                <h6 class="price-span">From <strong><s>GBP 70.00</s></strong></h6>
                                 <h6 style="margin-left: 3.5rem; color: #f91942;"><strong>GBP 70.00</strong></h6>
                                 <div class="listing-item-content">
                                     <span class="tag">Book Now</span>
@@ -791,8 +773,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <a href="#" class="listing-item-container" tabindex="0" style="background-color: #fff; border: 1px solid #d5d5d5; border-radius: 20px;">
+                    <div class="col-lg-3 col-md-3 ">
+                        <a href="#" class="listing-item-container custom-list-item-container" tabindex="0" >
                             <div class="listing-item ride-near-you-card " style="height: auto;">
                                 <div class="swiper-wrapper" style="height: auto ;">
                                     <div class="swiper-slide ride-near-you-card-image" style="border-radius: 30px;background-color: transparent;">
@@ -809,8 +791,8 @@
 
 
                                 <!-- Navigation buttons -->
-                                <div class="swiper-button-next" style=" background-color: #ffb71b; width: 20px; height: 20px; margin-right: 15px; border-radius: 5px; top: 110px;"></div>
-                                <div class="swiper-button-prev" style="background-color: #ffb71b; width: 20px; height: 20px; margin-left: 15px; border-radius: 5px;top: 110px;"></div>
+                                <div class="swiper-button-next" ></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
 
                             <div class="star-rating" style="padding-top: 0;">
@@ -821,12 +803,13 @@
                                     <span class="like-icon"></span>
 
                                 </div>
+
                                 <h4 style="font-weight: 600; margin: 0;">
                                     Product Name
                                 </h4>
                                 <h6>Hourly</h6>
                                 <h6 class="price-span">From <strong>GBP 70.00</strong></h6>
-                                <h6 style="margin-left: 3.5rem; color: #f91942;"><strong>GBP 70.00</strong></h6>
+                                <h6 class="custom-red-price"><strong>GBP 70.00</strong></h6>
                                 <div class="listing-item-content">
                                     <span class="tag">Book Now</span>
                                 </div>
@@ -834,8 +817,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <a href="#" class="listing-item-container" tabindex="0" style="background-color: #fff; border: 1px solid #d5d5d5; border-radius: 20px;">
+                    <div class="col-lg-3 col-md-3 ">
+                        <a href="#" class="listing-item-container custom-list-item-container" tabindex="0" >
                             <div class="listing-item ride-near-you-card " style="height: auto;">
                                 <div class="swiper-wrapper" style="height: auto ;">
                                     <div class="swiper-slide ride-near-you-card-image" style="border-radius: 30px;background-color: transparent;">
@@ -852,8 +835,8 @@
 
 
                                 <!-- Navigation buttons -->
-                                <div class="swiper-button-next" style=" background-color: #ffb71b; width: 20px; height: 20px; margin-right: 15px; border-radius: 5px; top: 110px;"></div>
-                                <div class="swiper-button-prev" style="background-color: #ffb71b; width: 20px; height: 20px; margin-left: 15px; border-radius: 5px;top: 110px;"></div>
+                                <div class="swiper-button-next" ></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
 
                             <div class="star-rating" style="padding-top: 0;">
@@ -864,12 +847,13 @@
                                     <span class="like-icon"></span>
 
                                 </div>
+
                                 <h4 style="font-weight: 600; margin: 0;">
                                     Product Name
                                 </h4>
                                 <h6>Hourly</h6>
                                 <h6 class="price-span">From <strong>GBP 70.00</strong></h6>
-                                <h6 style="margin-left: 3.5rem; color: #f91942;"><strong>GBP 70.00</strong></h6>
+                                <h6 class="custom-red-price"><strong>GBP 70.00</strong></h6>
                                 <div class="listing-item-content">
                                     <span class="tag">Book Now</span>
                                 </div>
@@ -877,8 +861,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <a href="#" class="listing-item-container" tabindex="0" style="background-color: #fff; border: 1px solid #d5d5d5; border-radius: 20px;">
+                    <div class="col-lg-3 col-md-3 ">
+                        <a href="#" class="listing-item-container custom-list-item-container" tabindex="0" >
                             <div class="listing-item ride-near-you-card " style="height: auto;">
                                 <div class="swiper-wrapper" style="height: auto ;">
                                     <div class="swiper-slide ride-near-you-card-image" style="border-radius: 30px;background-color: transparent;">
@@ -895,8 +879,8 @@
 
 
                                 <!-- Navigation buttons -->
-                                <div class="swiper-button-next" style=" background-color: #ffb71b; width: 20px; height: 20px; margin-right: 15px; border-radius: 5px; top: 110px;"></div>
-                                <div class="swiper-button-prev" style="background-color: #ffb71b; width: 20px; height: 20px; margin-left: 15px; border-radius: 5px;top: 110px;"></div>
+                                <div class="swiper-button-next" ></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
 
                             <div class="star-rating" style="padding-top: 0;">
@@ -907,11 +891,12 @@
                                     <span class="like-icon"></span>
 
                                 </div>
+
                                 <h4 style="font-weight: 600; margin: 0;">
                                     Product Name
                                 </h4>
                                 <h6>Hourly</h6>
-                                <h6 class="price-span">From <strong>GBP 70.00</strong></h6>
+                                <h6 class="price-span">From <strong><s>GBP 70.00</s></strong></h6>
                                 <h6 style="margin-left: 3.5rem; color: #f91942;"><strong>GBP 70.00</strong></h6>
                                 <div class="listing-item-content">
                                     <span class="tag">Book Now</span>
@@ -920,7 +905,7 @@
                             </div>
                         </a>
                     </div>
-                    </div>
+                    
 
 
                     <div class="col-md-12 centered-content">
@@ -944,7 +929,7 @@
                             <div class="boxed-photo-banner-text">
                                 <div class="boxed-photo-banner-inner-text">
                                     <h2>Find Your Inspiration</h2>
-                                    <p style="font-size: medium;">Discover our most popular experiance from around the <br> world! jump on the trends and create memories of a lifetime!</p>
+                                    <p style="font-size: small; ">Discover our most popular experiance from around the <br> world! jump on the trends and create memories of a lifetime!</p>
                                     <a href="#" class="button margin-top-25" style="background-color: #ffb71b; border-radius: 10px;">Trending Activities</a>
                                 </div>
 
@@ -959,23 +944,22 @@
 
         <!-- Book with Cavago section-->
 
-        <section class="fullwidth padding-top-80 customClass">
+        <section class="fullwidth  customClass">
             <div class="container margin-top-60" style="width: 95%; ">
                 <div class="row book-with-cavago">
                     <div class="col-md-12">
-                        <h3 class="headline margin-top-0 margin-bottom-40 margin-left-10" style="color: #ffb71b;">
+                        <h3 class="headline margin-top-0  margin-left-10" style="color: #ffb71b;">
                             <strong class="">Why book with Cavago</strong>
                         </h3>
                     </div>
-                    <div class="col-md-12  swiper-container">
-                        <div class="swiper-wrapper" style="padding-left: 8px;">
+                    <div class="col-md-12  swiper-container custom-book-with-cavago">
+                        <div class="swiper-wrapper " >
                             <!-- Add your slides here -->
                             <div class="swiper-slide col-lg-4 col-md-4">
-                                <div class="">
-                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
-                                        <div class="" style="display: flex; width: 100%;">
-                                            <div class="ibv3-icon">
-                                                <i class="im im-icon-Shield"></i>
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
+                                        <div class="custom-icon-box-inner" >
+                                            <div >
+                                                <i class="im im-icon-Shield custom-bwc-icons"></i>
                                             </div>
                                         </div>
                                         <div class="ibv3-content book-with-cavago-title">
@@ -983,14 +967,13 @@
                                             <p>Our hosts are close partners with flexibility in bookings and cancellations to make your trip unforgettable</p>
                                         </div>
                                     </a>
-                                </div>
                             </div>
                             <div class="swiper-slide col-lg-4 col-md-4">
 
-                                <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                <a href="#" class="icon-box-v3 custom-icon-box" >
                                     <div class="" style="display: flex; width: 100%;">
-                                        <div class="ibv3-icon">
-                                            <i class="im  im-icon-People-onCloud"></i>
+                                        <div>
+                                            <i class="im  im-icon-People-onCloud custom-bwc-icons"></i>
                                         </div>
                                     </div>
                                     <div class="ibv3-content book-with-cavago-title">
@@ -1002,25 +985,25 @@
                             </div>
                             <div class="swiper-slide col-lg-4 col-md-4">
                                 <div class="">
-                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                    <a href="#" class="icon-box-v3 custom-icon-box" >
                                         <div class="" style="display: flex; width: 100%;">
-                                            <div class="ibv3-icon">
-                                                <i class="im im-icon-Like-2"></i>
+                                            <div>
+                                                <i class="im im-icon-Like-2 custom-bwc-icons"></i>
                                             </div>
                                         </div>
                                         <div class="ibv3-content book-with-cavago-title">
                                             <h4>Support Local Businesses</h4>
-                                            <p>By booking with Cavago, you are helping to support local equestrian businesses wherever you gol</p>
+                                            <p>By booking with Cavago, you are helping to support local equestrian businesses wherever you go!</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide col-lg-4 col-md-4">
                                 <div class="">
-                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                    <a href="#" class="icon-box-v3 custom-icon-box" >
                                         <div class="" style="display: flex; width: 100%;">
-                                            <div class="ibv3-icon">
-                                                <i class="im im-icon-Location-2"></i>
+                                            <div >
+                                                <i class="im im-icon-Location-2 custom-bwc-icons"></i>
                                             </div>
                                         </div>
                                         <div class="ibv3-content book-with-cavago-title">
@@ -1032,10 +1015,10 @@
                             </div>
                             <div class="swiper-slide col-lg-4 col-md-4">
                                 <div class="">
-                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                    <a href="#" class="icon-box-v3 custom-icon-box" >
                                         <div class="" style="display: flex; width: 100%;">
-                                            <div class="ibv3-icon">
-                                                <i class="im im-icon-Calendar"></i>
+                                            <div >
+                                                <i class="im im-icon-Calendar custom-bwc-icons"></i>
                                             </div>
                                         </div>
                                         <div class="ibv3-content book-with-cavago-title">
@@ -1047,10 +1030,10 @@
                             </div>
                             <div class="swiper-slide col-lg-4 col-md-4">
                                 <div class="">
-                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
                                         <div class="" style="display: flex; width: 100%;">
-                                            <div class="ibv3-icon">
-                                                <i class="im  im-icon-Support"></i>
+                                            <div>
+                                                <i class="im  im-icon-Support custom-bwc-icons"></i>
                                             </div>
                                         </div>
                                         <div class="ibv3-content book-with-cavago-title">
@@ -1084,8 +1067,8 @@
                                 <div class="boxed-photo-banner-inner-text">
                                     <!-- <h4 style="font-weight: 600;">The best of</h4> -->
                                     <h2><span style="font-size: medium;">The best of</span><br>CAVAGO TOURES</h2>
-                                    <p>Let our specialist team design your next amazing equestrian experience!</p>
-                                    <a href="#" class="button margin-top-25" style="background-color: #ffb71b; border-radius: 10px;">CAVAGO TOURES</a>
+                                    <p style="font-size: small;">Let our specialist team design your next amazing equestrian experience!</p>
+                                    <a href="#" class="button margin-top-25 cavago-tours-btn" >CAVAGO TOURES</a>
                                 </div>
                             </div>
                             <!-- Infobox / End -->
@@ -1100,7 +1083,7 @@
         <!-- clicks -->
 
         <section class="fullwidth margin-top-0 padding-top-80 " data-background-color="#fff" style="background: rgb(255, 255, 255);">
-            <div class="container" style="width: 80%;">
+            <div class="container" style="width: 95%;">
 
                 <div class="row blog">
                     <div class="col-md-3 col-xs-6">
@@ -1702,7 +1685,7 @@
                             <div class="boxed-photo-banner-text">
                                 <div class="boxed-photo-banner-inner-text">
                                     <h2>Contact Us</h2>
-                                    <p style="font-size: medium;">Get in touch with our dedication team who will be able to<br>help you to find your next equestrian experience!</p>
+                                    <p style="font-size: small;">Get in touch with our dedication team who will be able to<br>help you to find your next equestrian experience!</p>
                                     <a href="#" class="button margin-top-25" style="background-color: #ffb71b; border-radius: 10px;">Contact Us</a>
                                 </div>
 
@@ -1844,7 +1827,7 @@
         var swiper = new Swiper('.swiper-container', {
             // Optional parameters
             slidesPerView: 2, // Display two slides by default
-            spaceBetween: 40, // Space between slides
+            spaceBetween: 35, // Space between slides
             // Add other options and settings as needed
             navigation: {
                 nextEl: '.swiper-button-next',
