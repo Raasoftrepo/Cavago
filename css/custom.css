@@ -1,39 +1,64 @@
+#header {
+  padding: 0;
+}
+
+.logo img {
+  height: 48px;
+}
+
 /*------------- Header Right Section ---------*/
+
 .custom-header-widget {
   height: 100%;
-  margin-bottom: 5px;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 2%;
+  gap: 6px;
 }
 
 .custom-sign-in {
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.custom-sign-in:hover {
-  color: #ffb71b;
-  /* border-color: #ffb71b; */
-  /* border: 1px solid green; */
+.custom-header-widget>a {
+  min-width: 65px;
+  gap: 2px;
 }
 
-.custom-sign-in i {
-  line-height: 31px;
-  width: 32px;
-  height: 33px;
-  display: inline-block;
-  border: 1px solid #333;
+.custom-sign-in:hover {
+  color: #ffb71b;
+}
+
+.custom-sign-in:hover .c-icon {
+  border-color: #ffb71b;
+  color: #ffb71b;
+}
+
+.custom-sign-in:hover .custom-host-icon {
+  background-color: #ffb71b;
+  border-color: #ffb71b;
+  color: white !important;
+}
+
+.custom-sign-in .c-icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #66676b;
   border-radius: 50%;
-  padding: 0 !important;
-  /* border: 1px solid red; */
-  border-color: #66676b;
   color: #66676b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  font-size: 14px;
+}
+
+.custom-header-widget .c-text {
+  font-size: 11px;
+  font-weight: 500;
 }
 
 .custom-heart-icon {
@@ -227,14 +252,46 @@
   align-items: center !important;
 }
 
+.main-navigation {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.topnav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.left-topnav {
+  display: flex;
+  align-items: center;
+}
+
 nav#navigation {
   width: 100%;
 }
 
-nav#navigation ul {
+nav#navigation>ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .right-topnav {
+    display: none;
+  }
+
+  .left-topnav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #header {
+    padding: 15px 0;
+  }
 }
 
 @media (min-width: 1240px) {
