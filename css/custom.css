@@ -134,6 +134,7 @@
   border-radius: 5px !important;
   top: 110px !important;
 }
+
 .ride-near-you-card:hover .swiper-button-prev {
   background-color: #ffb71b;
   width: 20px !important;
@@ -145,7 +146,8 @@
 
 .price-span strong s {
   text-decoration: line-through;
-  color: #000000; /* Change the strikethrough color to red */
+  color: #000000;
+  /* Change the strikethrough color to red */
 }
 
 .custom-red-price {
@@ -184,6 +186,7 @@
   font-size: 6rem !important;
   color: #ffb71b;
 }
+
 .book-with-cavago-title {
   width: 90%;
 }
@@ -222,4 +225,27 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+}
+
+nav#navigation {
+  width: 100%;
+}
+
+nav#navigation ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1240px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1367px) {
+  .container {
+    width: 90%;
+    max-width: 1400px;
+  }
 }
