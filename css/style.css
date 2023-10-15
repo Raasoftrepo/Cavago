@@ -4700,6 +4700,8 @@ strong.headline-with-separator,
 .icon-box-v3 {
   display: flex;
   align-items: center;
+  gap: 15px;
+  padding: 0 20px;
 }
 
 .icon-box-v3:last-child {
