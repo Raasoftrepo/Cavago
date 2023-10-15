@@ -278,6 +278,12 @@ nav#navigation>ul {
   justify-content: space-between;
 }
 
+.list-categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1024px) {
   .right-topnav {
     display: none;
@@ -290,7 +296,7 @@ nav#navigation>ul {
   }
 
   #header {
-    padding: 15px 0;
+    padding: 0;
   }
 }
 
@@ -304,5 +310,62 @@ nav#navigation>ul {
   .container {
     width: 90%;
     max-width: 1400px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .hero-section-wrapper {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .card-main {
+    top: 0;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main-search-inner {
+    position: relative;
+    padding: 30px 0;
+  }
+
+  .main-search-inner {
+    transform: none;
+  }
+
+  .main-search-inner h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 5px;
+  }
+
+  .main-search-inner p {
+    text-align: center;
+  }
+
+  .list-categories {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-search-inner h2 span {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .main-search-input-item .chosen-container-single .chosen-single,
+  .main-search-input-item .chosen-single.chosen-container-active {
+    width: 100%;
+  }
+
+  .main-search-input-item {
+    width: 100%;
   }
 }
