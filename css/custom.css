@@ -732,7 +732,19 @@ div#footer h3 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
+  h2,
+  .h2 {
+    font-size: 22px;
+  }
+
+  .qr-scan-wrapper {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+  }
+
   .blog-compact-item-container {
     margin-bottom: 20px;
   }

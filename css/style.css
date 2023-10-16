@@ -4701,7 +4701,7 @@ strong.headline-with-separator,
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .icon-box-v3:last-child {
@@ -4712,6 +4712,7 @@ strong.headline-with-separator,
   font-size: 18px;
   color: rgb(34, 34, 34);
   font-weight: 600;
+  margin-top: 0;
 }
 
 .ibv3-content p {
@@ -4850,7 +4851,7 @@ strong.headline-with-separator,
   }
 
   .book-with-cavago-title h4 {
-    font-size: 13px;
+    /* font-size: 13px; */
   }
 
   .book-with-cavago-title p {
@@ -7387,7 +7388,7 @@ button.fs-map-btn.button {
 }
 
 .social-card img {
-  width: 30px;
+  width: 28px;
 }
 
 .social-card-footer {
@@ -7399,7 +7400,7 @@ button.fs-map-btn.button {
 
 @media (min-width: 375px) and (max-width: 412px) {
   .social-card-logo img {
-    width: 40px;
+    width: 50px;
   }
 
   .social-card img {
