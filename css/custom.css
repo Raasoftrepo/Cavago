@@ -632,6 +632,11 @@ div#footer h3 {
   height: 30px;
 }
 
+.card-main-wrapper {
+  position: relative;
+  width: 450px;
+}
+
 @media (min-width: 1240px) {
   .container {
     width: 90%;
@@ -669,6 +674,15 @@ div#footer h3 {
 }
 
 @media only screen and (max-width: 980px) {
+  .card-main {
+    position: relative;
+  }
+
+  .card-main-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
   .boxed-photo-banner {
     background-color: rgb(44 61 77 / 97%);
     width: 60%;

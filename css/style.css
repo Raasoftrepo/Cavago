@@ -3358,8 +3358,8 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .card-main {
-  position: relative;
-  top: 40px;
+  position: absolute;
+  top: 30px;
 }
 
 .card-main {
@@ -3390,8 +3390,8 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .first-row .first-row-card {
-  width: 110px;
-  height: 140px;
+  width: 120px;
+  height: 150px;
   overflow: hidden;
   border-radius: 10px;
   margin: 0px;
@@ -3402,8 +3402,8 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .second-row .second-row-card {
-  width: 140px;
-  height: 200px;
+  width: 130px;
+  height: 210px;
   overflow: hidden;
   border-radius: 10px;
   margin: 0px;
@@ -3414,8 +3414,8 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .third-row .third-row-card {
-  width: 140px;
-  height: 200px;
+  width: 150px;
+  height: 240px;
   overflow: hidden;
   border-radius: 10px;
   margin: 0px;
@@ -3426,19 +3426,19 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out {
 }
 
 .first-row img {
-  height: 140px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .second-row img {
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .third-row img {
-  height: 200px;
+  height: 240px;
   object-fit: cover;
   border-radius: 10px;
 }
