@@ -11513,7 +11513,7 @@ span.blog-item-tag {
 
 @media (min-width: 375px) and (max-width: 412px) {
   .blog {
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
