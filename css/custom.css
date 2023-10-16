@@ -12,6 +12,22 @@ h6 {
   font-weight: 700;
 }
 
+.swiper-sm.swiper-button-next,
+.swiper-sm.swiper-button-prev {
+  width: 24px;
+  height: 28px;
+  margin-top: 0px;
+  cursor: pointer;
+  background: rgb(255, 183, 27);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.swiper-sm.swiper-button-next:after,
+.swiper-sm.swiper-button-prev:after {
+  font-size: 11px;
+}
+
 .swiper-big.swiper-button-next,
 .swiper-big.swiper-button-prev {
   width: 26px;
@@ -183,11 +199,12 @@ header #header.header-static {
   border-radius: 12px;
 }
 
-.listing-item [class^="swiper-button-"]::after {
-  font-size: 10px;
-  color: rgb(255, 255, 255);
+.ride-near-you-card-image .swiper-sm {
   opacity: 0;
-  transition: opacity 0.3s ease 0s;
+}
+
+.ride-near-you-card-image:hover .swiper-sm {
+  opacity: 1;
 }
 
 .listing-item:hover [class^="swiper-button-"]::after {
@@ -199,23 +216,6 @@ header #header.header-static {
   display: none;
 }
 
-.ride-near-you-card:hover .swiper-button-next {
-  background-color: rgb(255, 183, 27);
-  width: 20px !important;
-  height: 20px !important;
-  margin-right: 15px !important;
-  border-radius: 5px !important;
-  top: 110px !important;
-}
-
-.ride-near-you-card:hover .swiper-button-prev {
-  background-color: rgb(255, 183, 27);
-  width: 20px !important;
-  height: 20px !important;
-  margin-left: 15px !important;
-  border-radius: 5px !important;
-  top: 110px !important;
-}
 
 .price-span s {
   text-decoration: line-through;
