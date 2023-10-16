@@ -289,7 +289,7 @@ header.fullwidth .container {
   padding: 70px 0px 0px;
   background-color: rgb(255, 255, 255);
   border-top: 1px solid rgba(0, 0, 0, 0.09);
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 #footer.sticky-footer {
@@ -439,6 +439,7 @@ ul.footer-links {
   z-index: 999;
   transition: all 0.35s ease 0s;
   transform: scale(0.7);
+  display: none !important;
 }
 
 #backtotop.visible {
@@ -4891,14 +4892,14 @@ strong.headline-with-separator,
 
 .boxed-photo-banner p {
   color: rgb(255, 255, 255);
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 15px;
   margin: 0px 0px 20px;
   display: block;
   font-weight: 300;
 }
 
-.boxed-photo-banner-text .button {}
+
 
 @media (min-width: 375px) and (max-width: 412px) {
   .book-with-cavago h3 strong {
@@ -7450,7 +7451,7 @@ button.fs-map-btn.button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px 5px 20px;
+  padding: 0px 20px 10px 20px;
 }
 
 @media (min-width: 375px) and (max-width: 412px) {
@@ -11534,11 +11535,11 @@ a.button.border,
 a.button {
   background-color: rgb(102, 103, 107);
   top: 0px;
-  padding: 6px 18px;
+  padding: 8px 18px;
   color: rgb(255, 255, 255);
   position: relative;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   display: inline-block;
   transition: all 0.2s ease-in-out 0s;
   cursor: pointer;
