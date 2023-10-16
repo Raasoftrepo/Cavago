@@ -739,6 +739,11 @@ div#footer h3 {
     font-size: 22px;
   }
 
+  .partnership {
+    width: 100px;
+    height: 100px;
+  }
+
   .qr-scan-wrapper {
     display: flex;
     width: 100%;
