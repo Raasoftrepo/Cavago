@@ -1648,6 +1648,13 @@ div#footer h3 {
   }
 }
 
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .navbar-brand {
     display: block;
