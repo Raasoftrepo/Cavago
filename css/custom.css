@@ -360,8 +360,6 @@ nav#navigation>ul {
   color: rgb(255, 183, 27);
   font-size: 22px;
   font-weight: 500;
-  margin: 0 !important;
-  padding: 0;
   text-align: center;
 }
 
@@ -374,7 +372,6 @@ nav#navigation>ul {
 
 .discover-location-wrapper {
   position: relative;
-  padding: 0px 10px;
 }
 
 .dl-lable {
@@ -1189,7 +1186,17 @@ nav#navigation>ul {
 
 .discover-location-wrapper {
   position: relative;
-  padding: 0px 20px;
+  padding: 0px;
+  width: 140px;
+}
+
+.discover-location-wrapper .swiper-wrapper,
+.discover-location-wrapper .card-main-swiper {
+  width: 140px;
+}
+
+.discover-location-wrapper .swiper-slide {
+  width: 140px !important;
 }
 
 .dl-lable {
