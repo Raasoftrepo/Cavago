@@ -1450,12 +1450,12 @@ div#footer h3 {
 
 .chat {
   position: fixed;
-  right: 19px;
+  right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  bottom: 66px;
+  bottom: 20px;
   margin: 0;
   z-index: 999;
   transition: all 0.35s ease 0s;
@@ -1465,6 +1465,7 @@ div#footer h3 {
   background: #03a9f4;
   z-index: 9999;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .chat img {
@@ -1663,5 +1664,9 @@ div#footer h3 {
     margin: 0px 0px 20px;
     display: block;
     font-weight: 300;
+  }
+
+  .footer-links li a {
+    font-size: 12px;
   }
 }

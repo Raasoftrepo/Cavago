@@ -439,6 +439,7 @@ ul.footer-links {
   z-index: 999;
   transition: all 0.35s ease 0s;
   transform: scale(0.7);
+  display: none !important;
 }
 
 #backtotop.visible {
