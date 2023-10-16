@@ -609,6 +609,29 @@ div#footer h3 {
   color: #666;
 }
 
+.chat {
+  position: fixed;
+  right: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  bottom: 66px;
+  margin: 0;
+  z-index: 999;
+  transition: all 0.35s ease 0s;
+  transform: scale(0.7);
+  width: 60px;
+  height: 60px;
+  background: #03a9f4;
+  z-index: 9999;
+  box-sizing: border-box;
+}
+
+.chat img {
+  height: 30px;
+}
+
 @media (min-width: 1240px) {
   .container {
     width: 90%;
