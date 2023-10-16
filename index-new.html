@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Cavago</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-color.css" id="colors">
+    <link rel="stylesheet" href="css/custom.css" id="colors">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header-container" class="navigation-wrapper">
+            <div class="header-static">
+                <div class="cloned unsticky">
+                    <div class="container">
+                        <div class="topnav-wrapper">
+                            <div class="left-topnav">
+                                <div class="logo">
+                                    <a href="#"><img src="https://mycavago.com/frontend/images/logo.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="main-search-input">
+                                <div class="main-search-input-item">
+                                    <select data-placeholder="All Categories" class="chosen-select">
+                                        <option>United Kingdom</option>
+                                        <option>London</option>
+                                        <option>Birmingham</option>
+                                        <option>Southampton</option>
+                                    </select>
+                                </div>
+                                <div class="main-search-input-item-exp">
+                                    <input type="text" placeholder="Search for your next horse experience…" value="">
+                                </div>
+                                <button class="button h-search-button"><i class="fa fa-search"></i></button>
+                            </div>
+                            <div class="right-topnav">
+                                <div class="custom-header-widget">
+                                    <a href="#" class="sign-in custom-sign-in ">
+                                        <span class="c-icon custom-heart-icon"><i class="fa fa-heart"></i></span>
+                                        <span class="c-text"> Wishlist</span>
+                                    </a>
+                                    <a href="#" class="sign-in   custom-sign-in"><span class="c-icon">
+                                            <i class="fa fa-shopping-cart"></i></span>
+                                        <span class="c-text">Cart</span>
+                                    </a>
+                                    <a href="#" class="sign-in custom-sign-in">
+                                        <span class="c-icon"><i class="fa fa-user"></i></span>
+                                        <span class="c-text">Account</span>
+                                    </a>
+                                    <a href="#" class="sign-in  custom-sign-in">
+                                        <span class="c-icon custom-host-icon"><i class="fa fa-globe "></i></span>
+                                        <span class="c-text">Become a
+                                            Host</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-navigation">
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                            <div class="container">
+                                <a class="navbar-brand logo" href="#">
+                                    <img src="https://mycavago.com/frontend/images/logo.png" alt="logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                        role="img" focusable="false">
+                                        <title>Menu</title>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                                            stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+                                    </svg>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <div class="custom-header-widget m-widget">
+                                        <a href="#" class="sign-in custom-sign-in ">
+                                            <span class="c-icon custom-heart-icon"><i class="fa fa-heart"></i></span>
+                                            <span class="c-text"> Wishlist</span>
+                                        </a>
+                                        <a href="#" class="sign-in   custom-sign-in"><span class="c-icon">
+                                                <i class="fa fa-shopping-cart"></i></span>
+                                            <span class="c-text">Cart</span>
+                                        </a>
+                                        <a href="#" class="sign-in custom-sign-in">
+                                            <span class="c-icon"><i class="fa fa-user"></i></span>
+                                            <span class="c-text">Account</span>
+                                        </a>
+                                        <a href="#" class="sign-in  custom-sign-in">
+                                            <span class="c-icon custom-host-icon"><i class="fa fa-globe "></i></span>
+                                            <span class="c-text">Become a
+                                                Host</span>
+                                        </a>
+                                    </div>
+                                    <ul class="navbar-nav me-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Daily Rides & Experiences
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Riding Holidays
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Lessons
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Demos & Performances
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Stabling & Livery
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Competition
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        <!-- Header Container / End -->
+
+        <!-- Hero Section -->
+
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-section-wrapper">
+                    <div class="main-search-inner ">
+                        <h2> <span> Connecting </span> People, Places & Horses</h2>
+                        <p>Find Your Next Equestrian...</p>
+                        <div class="list-categories">
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Daily Rides & Experiences</h4>
+                            </a>
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Riding Holiday</h4>
+                            </a>
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Lessons & Clinics</h4>
+                            </a>
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Demos & Performances</h4>
+                            </a>
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Stabling & livery</h4>
+                            </a>
+                            <a href="#" class="highlighted-category">
+                                <h4 class="highlighted-category-text">Competition</h4>
+                            </a>
+                        </div>
+                        <div class="main-search-input">
+                            <div class="main-search-input-item">
+                                <select data-placeholder="All Categories" class="chosen-select">
+                                    <option>United Kingdom</option>
+                                    <option>London</option>
+                                    <option>Birmingham</option>
+                                    <option>Southampton</option>
+                                </select>
+                            </div>
+                            <div class="main-search-input-item-exp">
+                                <input type="text" placeholder="Search for your next horse experience…" value="">
+                            </div>
+                            <button class="button h-search-button"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-main-wrapper">
+                        <div class="card-main">
+
+                            <div class="first-row ">
+                                <div class="first-row-card card-main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="first-row-card card-main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second Row -->
+                            <div class="second-row">
+                                <div class="second-row-card card-main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-row-card card-main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Third Row -->
+                            <div class="third-row ">
+                                <div class="discover-loc">
+                                    <div class="dl-lable"> <i class="fa fa-map-marker"></i> Discover</div>
+                                    <div class="discover-location-wrapper">
+                                        <div class="dl-loc">
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                        </div>
+                                        <div class="card-main-swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    Portugal
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    London
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="third-row-card card-main-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="images/imageStack/pic-2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- products -->
+        <section class="fullwidth padding-top-80 customClass">
+            <div class="container">
+                <div class="product" id="activity_row">
+
+                    <h2 class="section-header text-primary">Find a ride near you...</h2>
+
+                    <h4 class="subheader-selectbox">
+                        <span> Daily Rides & Experiences in </span>
+                        <select class="custom-country-select" data-placeholder="All Categories ">
+                            <option>United Kingdom</option>
+                            <option>London</option>
+                            <option>Birmingham</option>
+                            <option>Southampton</option>
+                        </select>
+                    </h4>
+
+                    <div class="padding-top-0">
+                        <div class="slide-nav-wrapper">
+                            <div class="product-list-container swiper padding-top-30">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="listing-item-container custom-list-item-container"
+                                            tabindex="0">
+                                            <div class="ride-near-you-card-image">
+                                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                                    <div class="swiper-wrapper" style="height: auto ;">
+                                                        <div class="swiper-slide"
+                                                            style="border-radius: 30px;background-color: transparent;">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-01.png" alt="">
+                                                        </div>
+                                                        <!-- <div class="swiper-slide">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-02.png" alt="">
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="swiper-button-next swiper-sm"></div>
+                                                    <div class="swiper-button-prev swiper-sm"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="star-rating">
+                                                <div class="q-details">
+                                                    <div class="hc-details">
+                                                        <h6>Host Name,</h6>
+                                                        <h6>Country</h6>
+                                                    </div>
+                                                    <div class="w-btn">
+                                                        <span class="like-icon"></span>
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="product-name">
+                                                    Product Name
+                                                </h4>
+                                                <div class="s-description">Hourly</div>
+                                                <div class="footer-details">
+                                                    <div class="pf-left">
+                                                        <div class="price-details">
+                                                            <div>From</div>
+                                                            <div class="price-span">
+                                                                <s>GBP 70.00</s>
+                                                                <span>GBP 70.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pf-right">
+                                                        <button class="button btn-booknow">Book Now</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a href="#" class="listing-item-container custom-list-item-container"
+                                            tabindex="0">
+                                            <div class="ride-near-you-card-image">
+                                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                                    <div class="swiper-wrapper" style="height: auto ;">
+                                                        <div class="swiper-slide"
+                                                            style="border-radius: 30px;background-color: transparent;">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-01.png" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-02.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-button-next swiper-sm"></div>
+                                                    <div class="swiper-button-prev swiper-sm"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="star-rating">
+                                                <div class="q-details">
+                                                    <div class="hc-details">
+                                                        <h6>Host Name,</h6>
+                                                        <h6>Country</h6>
+                                                    </div>
+                                                    <div class="w-btn">
+                                                        <span class="like-icon"></span>
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="product-name">
+                                                    Product Name
+                                                </h4>
+                                                <div class="s-description">Hourly</div>
+                                                <div class="footer-details">
+                                                    <div class="pf-left">
+                                                        <div class="price-details">
+                                                            <div>From</div>
+                                                            <div class="price-span">
+                                                                <s>GBP 70.00</s>
+                                                                <span>GBP 70.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pf-right">
+                                                        <button class="button btn-booknow">Book Now</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="listing-item-container custom-list-item-container"
+                                            tabindex="0">
+                                            <div class="ride-near-you-card-image">
+                                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                                    <div class="swiper-wrapper" style="height: auto ;">
+                                                        <div class="swiper-slide"
+                                                            style="border-radius: 30px;background-color: transparent;">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-01.png" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-02.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-button-next swiper-sm"></div>
+                                                    <div class="swiper-button-prev swiper-sm"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="star-rating">
+                                                <div class="q-details">
+                                                    <div class="hc-details">
+                                                        <h6>Host Name,</h6>
+                                                        <h6>Country</h6>
+                                                    </div>
+                                                    <div class="w-btn">
+                                                        <span class="like-icon"></span>
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="product-name">
+                                                    Product Name
+                                                </h4>
+                                                <div class="s-description">Hourly</div>
+                                                <div class="footer-details">
+                                                    <div class="pf-left">
+                                                        <div class="price-details">
+                                                            <div>From</div>
+                                                            <div class="price-span">
+                                                                <s>GBP 70.00</s>
+                                                                <span>GBP 70.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pf-right">
+                                                        <button class="button btn-booknow">Book Now</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="listing-item-container custom-list-item-container"
+                                            tabindex="0">
+                                            <div class="ride-near-you-card-image">
+                                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                                    <div class="swiper-wrapper" style="height: auto ;">
+                                                        <div class="swiper-slide"
+                                                            style="border-radius: 30px;background-color: transparent;">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-01.png" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-02.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-button-next swiper-sm"></div>
+                                                    <div class="swiper-button-prev swiper-sm"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="star-rating">
+                                                <div class="q-details">
+                                                    <div class="hc-details">
+                                                        <h6>Host Name,</h6>
+                                                        <h6>Country</h6>
+                                                    </div>
+                                                    <div class="w-btn">
+                                                        <span class="like-icon"></span>
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="product-name">
+                                                    Product Name
+                                                </h4>
+                                                <div class="s-description">Hourly</div>
+                                                <div class="footer-details">
+                                                    <div class="pf-left">
+                                                        <div class="price-details">
+                                                            <div>From</div>
+                                                            <div class="price-span">
+                                                                <s>GBP 70.00</s>
+                                                                <span>GBP 70.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pf-right">
+                                                        <button class="button btn-booknow">Book Now</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="listing-item-container custom-list-item-container"
+                                            tabindex="0">
+                                            <div class="ride-near-you-card-image">
+                                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                                    <div class="swiper-wrapper" style="height: auto ;">
+                                                        <div class="swiper-slide"
+                                                            style="border-radius: 30px;background-color: transparent;">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-01.png" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                                src="images/activities/act-02.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-button-next swiper-sm"></div>
+                                                    <div class="swiper-button-prev swiper-sm"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="star-rating">
+                                                <div class="q-details">
+                                                    <div class="hc-details">
+                                                        <h6>Host Name,</h6>
+                                                        <h6>Country</h6>
+                                                    </div>
+                                                    <div class="w-btn">
+                                                        <span class="like-icon"></span>
+                                                    </div>
+                                                </div>
+
+                                                <h4 class="product-name">
+                                                    Product Name
+                                                </h4>
+                                                <div class="s-description">Hourly</div>
+                                                <div class="footer-details">
+                                                    <div class="pf-left">
+                                                        <div class="price-details">
+                                                            <div>From</div>
+                                                            <div class="price-span">
+                                                                <span>GBP 70.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pf-right">
+                                                        <button class="button btn-booknow">Book Now</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-big"></div>
+                            <div class="swiper-button-prev swiper-big"></div>
+                        </div>
+                    </div>
+                    <div class="centered-content text-center">
+                        <a href="#" class="button margin-top-5">View All</a>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- inspritation section -->
+
+        <section class="fullwidth margin-top-60">
+            <div class="container">
+                <div class="cavago-banners" style="background-image: url('images/activities/inspire.png');">
+                    <div class="boxed-photo-banner">
+                        <div class="boxed-photo-banner-text">
+                            <div class="boxed-photo-banner-inner-text">
+                                <h2>Find Your Inspiration</h2>
+                                <p>Discover our most popular experiance from around the
+                                    world! jump on the trends and create memories of a lifetime!
+                                </p>
+                                <a href="#" class="button">Trending Activities</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book with Cavago section-->
+
+        <section class="fullwidth  margin-top-80">
+            <div class="container ">
+                <div class="book-with-cavago">
+                    <h2 class="section-header text-primary">
+                        Why book with Cavago
+                    </h2>
+                </div>
+
+                <div class="slide-nav-wrapper">
+                    <div class="why-cavago-container swiper custom-book-with-cavago padding-top-30">
+                        <div class="swiper-wrapper">
+                            <!-- Add your slides here -->
+                            <div class="swiper-slide">
+                                <a href="#" class="icon-box-v3 custom-icon-box">
+                                    <div class="custom-icon-box-inner">
+                                        <div>
+                                            <i class="im im-icon-Shield custom-bwc-icons"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ibv3-content book-with-cavago-title">
+                                        <h4>Book with Confidence</h4>
+                                        <p>Our hosts are close partners with flexibility in bookings and cancellations
+                                            to make your trip unforgettable</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <a href="#" class="icon-box-v3 custom-icon-box">
+                                    <div class="" style="display: flex; width: 100%;">
+                                        <div>
+                                            <i class="im  im-icon-People-onCloud custom-bwc-icons"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ibv3-content book-with-cavago-title">
+                                        <h4>Become Part of the Community</h4>
+                                        <p>Join our ever growing equestrian community who seek new experiences every day
+                                        </p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="">
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
+                                        <div class="" style="display: flex; width: 100%;">
+                                            <div>
+                                                <i class="im im-icon-Like-2 custom-bwc-icons"></i>
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content book-with-cavago-title">
+                                            <h4>Support Local Businesses</h4>
+                                            <p>By booking with Cavago, you are helping to support local equestrian
+                                                businesses wherever you go!</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="">
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
+                                        <div class="" style="display: flex; width: 100%;">
+                                            <div>
+                                                <i class="im im-icon-Location-2 custom-bwc-icons"></i>
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content book-with-cavago-title">
+                                            <h4>Discover New Destinations</h4>
+                                            <p>Find your next equestrian experience no matter where you are in the
+                                                worldl</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="">
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
+                                        <div class="" style="display: flex; width: 100%;">
+                                            <div>
+                                                <i class="im im-icon-Calendar custom-bwc-icons"></i>
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content book-with-cavago-title">
+                                            <h4>Simple Booking Process</h4>
+                                            <p>Complete your booking in just a few clicks with our easy process, helping
+                                                you to access your next experience</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="">
+                                    <a href="#" class="icon-box-v3 custom-icon-box">
+                                        <div class="" style="display: flex; width: 100%;">
+                                            <div>
+                                                <i class="im  im-icon-Support custom-bwc-icons"></i>
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content book-with-cavago-title">
+                                            <h4>Help & Support</h4>
+                                            <p>Our specialist team are on hand around the clock to support you in your
+                                                booking. Have a question? Just ask</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add pagination and navigation buttons if needed -->
+
+                    </div>
+                    <!-- swiper end -->
+                    <div class="swiper-button-next swiper-big"></div>
+                    <div class="swiper-button-prev swiper-big"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Covago Tours section -->
+
+        <section class="fullwidth padding-top-80">
+            <div class="container">
+                <div class="cavago-banners" style="background-image: url('images/activities/inspire-2.png');">
+                    <div class="boxed-photo-banner">
+                        <div class="boxed-photo-banner-text">
+                            <h2><span style="font-size: medium;">The best of</span><br>CAVAGO TOURES</h2>
+                            <p>Let our specialist team design your next amazing
+                                equestrian experience!</p>
+                            <a href="#" class="button">Cavago Toures</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- clicks -->
+
+        <section class="fullwidth margin-top-0 padding-top-80 " data-background-color="#fff">
+            <div class="container">
+
+                <div class="row blog">
+                    <div class="col-md-3 col-xs-6">
+                        <a href="javascript:void(0)" class="blog-compact-item-container">
+                            <div class="blog-compact-item">
+
+                                <img style="border-radius: 30px; " src="images/activities/ambassador.png">
+
+                                <div class="blog-compact-item-content">
+                                    <h3 style="color: #000; text-align: center;">Meet our<br> Ambassadors</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <a href="javascript:void(0)" class="blog-compact-item-container">
+                            <div class="blog-compact-item _h-70vh">
+
+                                <img style="border-radius: 30px; " src="images/activities/host.png">
+
+                                <div class="blog-compact-item-content">
+                                    <h3 style="color: #000; text-align: center;">Become a Host</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <a href="javascript:void(0)" class="blog-compact-item-container">
+                            <div class="blog-compact-item _h-70vh">
+
+                                <img style="border-radius: 30px; " src="images/activities/blog.png">
+
+                                <div class="blog-compact-item-content">
+                                    <h3 style="color: #000; text-align: center;">Blog</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <a href="javascript:void(0)" class="blog-compact-item-container">
+                            <div class="blog-compact-item _h-70vh">
+
+                                <img style="border-radius: 30px; " src="images/activities/latest-news.png">
+
+                                <div class="blog-compact-item-content">
+                                    <h3 style="color: #000; text-align: center;">Latest News</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- box-section  / End-->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- app download // border-top  -->
+        <section class="fullwidth padding-bottom-80 padding-top-80">
+            <div class="container">
+                <div class="cavago-banners" style="background-image: url('images/imageStack/qrbanner.png');">
+                    <div class="qr-scan-wrapper">
+                        <div class="boxed-photo-banner-inner-text">
+                            <h2>Cavago on the move</h2>
+                            <p class="margin-bottom-25">Download our app to
+                                have the best of what Cavago has to offer at your finger tips!</p>
+                            <a href="#"><img src="images/Google.png" /></a>
+                            <a href="#"><img src="images/AppStore.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Customer Reviews  -->
+
+        <section class="fullwidth  customClass">
+            <div class="container">
+                <h2 class="section-header text-primary">Customer Reviews</h2>
+                <h4 class="subheader-selectbox">
+                    Don't just trust us, trust our customer!
+                </h4>
+                <div class="slide-nav-wrapper padding-top-30">
+                    <div class="swiper-customer-review swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Add your slides here -->
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content customer-reviews">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main">
+                                    <a href="#" class="icon-box-v3 " style="display: flex; flex-direction: column;">
+                                        <div class="customer-card">
+                                            <div class="customer-rev">
+                                                <img class="customer-rev-img" src="images/activities/ambassador.png">
+                                            </div>
+                                        </div>
+                                        <div class="ibv3-content">
+                                            <p style="text-align: center;">Our hosts are close partners with flexibility
+                                                in bookings and cancellations to make your trip unforgettable</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-big"></div>
+                    <div class="swiper-button-prev swiper-big"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News letter section -->
+
+        <section class="fullwidth padding-top-80">
+            <div class="container">
+                <div class="cavago-banners" style="background-image: url('images/activities/inspire.png');">
+                    <div class="boxed-photo-banner">
+                        <!-- Infobox -->
+                        <div class="boxed-photo-banner-text">
+                            <div class="boxed-photo-banner-inner-text">
+                                <h2>Stay in the know with latest news and offers</h2>
+                                <p>Enjoy 5% of your first booking when you subscribe to
+                                    our mailing list</p>
+                                <div class="subscribe-widget">
+                                    <div class="search-widget-wrapper">
+                                        <input type="text" id="hero-input" name="hero-input"
+                                            placeholder="Enter your email">
+
+                                    </div>
+                                    <button class="button" href="#"> Subscribe </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media section -->
+
+        <section class="fullwidth padding-top-80" data-background-color="#ffffff">
+            <div class="container">
+                <div id="activity_row">
+                    <h2 class="section-header text-primary">Follow us on social media</h2>
+                    <div class="row padding-top-30">
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo ">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/instagram.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/facebook.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/youtube.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/tiktok.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/linkedin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-3 col-xs-6 margin-bottom-20">
+                            <a href="#" class="listing-item-container" tabindex="0">
+                                <div class="social-card-header">
+                                    <div class="social-card-logo">
+                                        <img src="https://mycavago.com/frontend/images/logo.png" alt="">
+                                    </div>
+                                    <div class="social-card-logo social-card">
+                                        <img src="./images/imageStack/twitter.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="listing-item ride-near-you-card " style="height: auto;">
+                                    <div class="swiper-wrapper" style="height: auto ;">
+                                        <div class="swiper-slide ride-near-you-card-image"
+                                            style="border-radius: 30px;background-color: transparent;">
+                                            <img class="listing-item-image" style="border-radius: 20px;"
+                                                src="images/activities/act-01.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="social-card-footer">
+                                    <div class="social-card-logo">
+                                        <span>08-10-2023</span>
+                                    </div>
+                                    <div class="social-card-logo" style="display: flex;">
+                                        <div class="">
+                                            <span>12k</span>
+                                        </div>
+                                        <div class="" style="margin-left: 10px;">
+                                            <span>891</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partnership Section  -->
+
+        <section class="fullwidth margin-top-60">
+            <div class="container">
+                <h3 class="section-header text-primary">Partnerships</h3>
+                <div class="slide-nav-wrapper padding-top-30">
+                    <div class="swiper swiper-parnerships">
+                        <div class="swiper-wrapper">
+                            <!-- Add your slides here -->
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="customer-card-main"
+                                    style="display: flex;justify-content: center;align-items: center;">
+                                    <a href="#" class="" style="display: flex; flex-direction: column;">
+                                        <div class="partnership">
+                                            <h2>LOGO</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-big"></div>
+                    <div class="swiper-button-prev swiper-big"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What will you do? - Section  -->
+
+        <section class="fullwidth padding-top-80" data-background-color="#ffffff">
+            <div class="container">
+                <div id="activity_row">
+                    <h2 class="section-header text-primary">What will you do next?</h2>
+
+                    <div class="row padding-top-30">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <ul class="footer-links">
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <ul class="footer-links">
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+                                <li><a href="https://mycavago.com/terms-and-conditions">Things to do in
+                                        London</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact us Section  -->
+        <section class="fullwidth padding-top-60 margin-bottom-40">
+            <div class="container">
+                <div class="cavago-banners" style="background-image: url('images/activities/inspire.png');">
+                    <div class="boxed-photo-banner">
+                        <div class="boxed-photo-banner-text">
+                            <div class="boxed-photo-banner-inner-text">
+                                <h2>Contact Us</h2>
+                                <p>Get in touch with our dedication team who will be able
+                                    to<br>help you to find your next equestrian experience!</p>
+                                <a href="#" class="button">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <div id="footer" class="sticky-footer padding-top-40">
+            <!-- Main -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <h3 class="footer-links-title">Cavago Links</h3>
+                        <ul class="footer-links" style="width: 100%">
+                            <li><a href="https://mycavago.com/terms-and-conditions">User T&amp;C</a></li>
+                            <li><a href="https://mycavago.com/privacy-and-cookie-policy">Privacy &amp; Cookies
+                                    Policy</a></li>
+                            <li><a href="https://mycavago.com/payments-and-refund">Payments &amp; Refund</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <h3 class="footer-links-title">User Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="https://mycavago.com/user/auth/login?auth=1">Login</a></li>
+                            <li><a href="https://mycavago.com/user/auth/login?auth=1">Sign Up</a></li>
+                            <li><a href="https://mycavago.com/user/dashboard">My Account</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <h3 class="footer-links-title">Connect Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="https://mycavago.com/about-us">About Us</a></li>
+                            <li><a href="https://mycavago.com/contact-us">Contact Us</a></li>
+                            <li><a href="https://host.mycavago.com" target="_blank">Become a Partner &amp; Host</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <h3 class="footer-links-title">Media Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="https://blog.mycavago.com" target="_blank">Blog</a></li>
+                            <li><a href="https://mycavago-20346364.hs-sites.com/news?__hstc=186419702.cce457be237b48fd28c4a9bb45e83e35.1685517417507.1695014143962.1695023093760.108&amp;__hssc=186419702.6.1695023093760&amp;__hsfp=1091172503"
+                                    target="_blank">News</a></li>
+
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=6587831749" target="_blank">
+                                    Whatsapp Chat</a>
+                            </li>
+                        </ul>
+                        <ul class="social-icons " style="float: left;">
+                            <li><a class="facebook" href="https://www.facebook.com/mycavago/" target="_blank"><i
+                                        class="icon-facebook"></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com/my_cavago/" target="_blank"><i
+                                        class="icon-instagram"></i></a></li>
+                            <li><a class="twitter" href="https://mobile.twitter.com/mycavago" target="_blank"><i
+                                        class="icon-twitter"></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/company/mycavago" target="_blank"><i
+                                        class="icon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyrights margin-top-30" style="text-align: unset;">
+                            <div class="row">
+                                <div class="col-md-12" style="text-align: left;">
+                                    © 2023 CAVAGO PTE. LTD.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer / End -->
+            <div id="backtotop" class="visible">
+                <a href="#"></a>
+            </div>
+            <div id="chatwindow" class="chat">
+                <img src="images/chat.svg">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-migrate-3.3.2.min.js"></script>
+    <script type="text/javascript" src="scripts/mmenu.min.js"></script>
+    <script type="text/javascript" src="scripts/chosen.min.js"></script>
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
+    <script type="text/javascript" src="scripts/rangeslider.min.js"></script>
+    <script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
+    <script type="text/javascript" src="scripts/waypoints.min.js"></script>
+    <script type="text/javascript" src="scripts/counterup.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="scripts/tooltips.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.listing-item', {
+            // Optional parameters
+            loop: true, // Enable loop mode
+            autoplay: {
+                delay: 3000, // Auto-play interval in milliseconds (3 seconds)
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // Pagination dots
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.product-list-container', {
+            // Optional parameters
+            slidesPerView: 1, // Display two slides by default
+            spaceBetween: 20, // Space between slides
+            // Add other options and settings as needed
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1000: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                }
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.why-cavago-container', {
+            // Optional parameters
+            slidesPerView: 1, // Display two slides by default
+            spaceBetween: 35, // Space between slides
+            // Add other options and settings as needed
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                980: {
+                    slidesPerView: 3,
+                },
+                1300: {
+                    slidesPerView: 3,
+                }
+            },
+        });
+    </script>
+
+    <script>
+        var reviewSwiper = new Swiper('.swiper-customer-review', {
+            // Optional parameters
+            slidesPerView: 1, // Display three slides at once
+            spaceBetween: 40, // Space between slides
+            loop: false, // Enable loop mode
+            autoplay: {
+                delay: 3000, // Auto-play interval in milliseconds (3 seconds)
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                980: {
+                    slidesPerView: 2,
+                },
+                1300: {
+                    slidesPerView: 3,
+                }
+            },
+        });
+    </script>
+    <script>
+        var partnershipSwiper = new Swiper('.swiper-parnerships', {
+            // Optional parameters
+            slidesPerView: 1, // Display three slides at once
+            spaceBetween: 40, // Space between slides
+            loop: true, // Enable loop mode
+            autoplay: {
+                delay: 3000, // Auto-play interval in milliseconds (3 seconds)
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 3,
+                },
+                767: {
+                    slidesPerView: 3,
+                },
+                980: {
+                    slidesPerView: 3,
+                },
+                1300: {
+                    slidesPerView: 4,
+                }
+            },
+        });
+    </script>
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('.card-main-swiper', {
+            slidesPerView: 1,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 300) {
+                $("header").addClass("sticky-header");
+            } else {
+                $("header").removeClass("sticky-header");
+            }
+        });
+    </script>
+    <!-- Google Autocomplete -->
+    <script>
+        function initAutocomplete() {
+            var input = document.getElementById('autocomplete-input');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+
+            autocomplete.addListener('place_changed', function () {
+                var place = autocomplete.getPlace();
+                if (!place.geometry) {
+                    return;
+                }
+            });
+
+            if ($('.main-search-input-item')[0]) {
+                setTimeout(function () {
+                    $(".pac-container").prependTo("#autocomplete-container");
+                }, 300);
+            }
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&amp;libraries=places&amp;callback=initAutocomplete"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="scripts/switcher.js"></script>
+
+    <div id="style-switcher">
+        <h2>Color Switcher <a href="#"><i class="sl sl-icon-settings"></i></a></h2>
+
+        <div>
+            <ul class="colors" id="color1">
+                <li>
+                    <a href="#" class="main" title="Main"></a>
+                </li>
+                <li>
+                    <a href="#" class="blue" title="Blue"></a>
+                </li>
+                <li>
+                    <a href="#" class="green" title="Green"></a>
+                </li>
+                <li>
+                    <a href="#" class="orange" title="Orange"></a>
+                </li>
+                <li>
+                    <a href="#" class="navy" title="Navy"></a>
+                </li>
+                <li>
+                    <a href="#" class="yellow" title="Yellow"></a>
+                </li>
+                <li>
+                    <a href="#" class="peach" title="Peach"></a>
+                </li>
+                <li>
+                    <a href="#" class="beige" title="Beige"></a>
+                </li>
+                <li>
+                    <a href="#" class="purple" title="Purple"></a>
+                </li>
+                <li>
+                    <a href="#" class="celadon" title="Celadon"></a>
+                </li>
+                <li>
+                    <a href="#" class="red" title="Red"></a>
+                </li>
+                <li>
+                    <a href="#" class="brown" title="Brown"></a>
+                </li>
+                <li>
+                    <a href="#" class="cherry" title="Cherry"></a>
+                </li>
+                <li>
+                    <a href="#" class="cyan" title="Cyan"></a>
+                </li>
+                <li>
+                    <a href="#" class="gray" title="Gray"></a>
+                </li>
+                <li>
+                    <a href="#" class="olive" title="Olive"></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Style Switcher / End -->
+
+
+
+    <div class="pac-container pac-logo"
+        style="display: none; width: 310px; position: absolute; left: 626px; top: 466px;"></div>
+</body>
+
+</html>
