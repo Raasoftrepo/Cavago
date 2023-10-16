@@ -278,7 +278,7 @@ header #header.header-static {
 }
 
 .book-with-cavago-title p {
-  font-size: small;
+  /* font-size: small; */
   line-height: 20px;
   width: fit-content;
 }
@@ -583,6 +583,12 @@ h4.product-name {
 .qr-scan-wrapper h2 {
   color: rgb(255, 183, 27);
   margin: 0px 0px 20px;
+}
+
+.qr-scan-wrapper p {
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  display: block;
 }
 
 .subscribe-widget {
@@ -1093,7 +1099,7 @@ header #header.header-static {
 }
 
 .book-with-cavago-title p {
-  font-size: small;
+  /* font-size: small; */
   line-height: 20px;
   width: fit-content;
 }
