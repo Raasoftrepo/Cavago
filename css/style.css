@@ -4910,9 +4910,7 @@ strong.headline-with-separator,
     /* font-size: 13px; */
   }
 
-  .book-with-cavago-title p {
-    font-size: 8px;
-  }
+  .book-with-cavago-title p {}
 }
 
 .taxonomy-gallery-text {
