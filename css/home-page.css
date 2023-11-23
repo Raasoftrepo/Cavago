@@ -2849,3 +2849,17 @@ div#footer h3 {
 a:hover {
   text-decoration: none;
 }
+
+/* ///Banner responsive */
+
+@media (max-width: 767px) {
+  .fullSizeBanner {
+    display: none !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .mobileBanner {
+    display: none !important;
+  }
+}
